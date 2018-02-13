@@ -4,4 +4,6 @@
 
 ##### The 3 steps before execute
 1. **Tokenizing/Lexing**: Breaking up a _string_  of characters into meaningful _chunks_, called **tokens**. 
-F.I.:     var a = 2;        -->     var, a, =, 2, ;.
+
+F.I.:     var a = 2;        -->     var, a, =, 2, ;.  
+(Whitespace will only be persisted as a token when it is meaningful.)
