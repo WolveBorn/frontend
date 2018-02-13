@@ -1,3 +1,3 @@
 # Chapter 1: What is a Scope?
 
-_Scope_: 
+_Scope_ : 
