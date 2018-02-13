@@ -9,7 +9,7 @@
   :     var a = 2;        -->     var, a, =, 2, ;.  
 (Whitespace will only be persisted as a token when it is meaningful.)
 
-2. **Parsing**: Taking a _stream_ (array) of tokens and turning it into a tree of nested elements, which collectively represent the grammatical structure of the program. This tree is called an "**AS**T" (**A**bstract **S**yntax **T**ree).
+2. **Parsing**: Taking a _stream_ (array) of tokens and turning it into a tree of nested elements, which collectively represent the grammatical structure of the program. This tree is called an "**AST**" (**A**bstract **S**yntax **T**ree).
 
 
   :     var a = 2;        -->     The tree for **var a = 2;** might start with a top-level node called _VariableDeclaration_, with a child node called _Identifier_ (whose value is **a**), and another child called _AssignmentExpression_ which itself has a child called _NumericLiteral_ (whose value is **2**).
